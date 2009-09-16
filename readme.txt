@@ -3,8 +3,8 @@ Contributors: sgranade
 Donate link: http://granades.com/wp-fancyzoom/
 Tags: images, image, post, admin, popup, javascript, media
 Requires at least: 2.0.4
-Tested up to: 2.6.5
-Stable tag: 1.1
+Tested up to: 2.8.4
+Stable tag: 1.2
 
 WP FancyZoom brings the cool popup image zooming of FancyZoom to your
 Wordpress blog.

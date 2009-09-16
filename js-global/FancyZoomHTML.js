@@ -126,6 +126,8 @@ function insertZoomHTML() {
 		inFixedBox.appendChild(inShadowTable);
 
 		var inShadowTbody = document.createElement("tbody");	// Needed for IE (for HTML4).
+		// ###SRG ADDED NEXT LINE (c.f. http://www.michaelvanallen.com/development/tweaking-fancyzoom-for-firefox-3-5/)
+		inShadowTbody.style.backgroundColor = 'transparent'; // Force transparency
 		inShadowTable.appendChild(inShadowTbody);
 		
 		var inRow1 = document.createElement("tr");

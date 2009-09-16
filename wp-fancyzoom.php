@@ -3,13 +3,13 @@
 Plugin Name: WP FancyZoom
 Plugin URI: http://granades.com/wp-fancyzoom/
 Description: An easy way to incorporate the <a href="http://www.fancyzoom.com/">FancyZoom</a> image-zooming code to overlay images on a page without having to load an entirely new page. Includes FancyZoom 1.1.
-Version: 1.1
+Version: 1.2
 Author: Stephen Granade
 Author URI: http://granades.com/
 
 License:
 
-    The PHP file "wp-fancyzoom.php" is Copyright 2008 Stephen Granade
+    The PHP file "wp-fancyzoom.php" is Copyright 2008-2009 Stephen Granade
     (email: stephen@granades.com) and is licensed under the GNU
     General Public License (GPL). The javascript file
     "adddomloadevent.js" is taken from
