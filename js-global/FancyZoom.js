@@ -504,8 +504,9 @@ function zoomElement(zoomdiv, theID, zoomCurrent, zoomStartW, zoomChangeW, zoomS
 		moveX = cubicInOut(zoomCurrent, zoomStartX, zoomChangeX, zoomSteps);
 		moveY = cubicInOut(zoomCurrent, zoomStartY, zoomChangeY, zoomSteps);
 	
-		document.getElementById(zoomdiv).style.left = moveX + 'px';
-		document.getElementById(zoomdiv).style.top = moveY + 'px';
+		// ###SRG added Math.floor() to next two lines (c.f. http://www.michaelvanallen.com/development/tweaking-fancyzoom-for-firefox-3-5/)
+		document.getElementById(zoomdiv).style.left = Math.floor(moveX) + 'px';
+		document.getElementById(zoomdiv).style.top = Math.floor(moveY) + 'px';
 		zoomimg.style.width = moveW + 'px';
 		zoomimg.style.height = moveH + 'px';
 	
